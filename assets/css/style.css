@@ -1,0 +1,81 @@
+@font-face {  
+    font-family: "Bangers";
+    src:url("Bangers.ttf");
+    /*font-weight: bold;*/
+
+}
+
+body{
+    font-size: 32px;
+    color: blue;
+    background: url('../images/superbckgrnd.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    background-color: #5fbaf7;
+    opacity: 0.9;
+}
+
+
+#heroName{
+    background-color: #5fbaf7;
+    padding: 7px;
+    opacity: 0.9;
+}
+#add-hero {
+    background-color: #5fbaf7;
+    border-color: grey;
+    margin-left: 0px;
+    /*margin: 2px;*/
+}
+
+
+.thumbnail{
+    display: inline-block;
+    margin-right: 10px;
+    max-width: 300px;
+    border: 1px solid black;
+    /*max-height: 200px;*/
+    overflow: none;
+
+}
+
+.thumbnail img{
+    height: 200px;
+}
+
+
+
+button {
+
+    background-color: #86bdbd;
+    border-color: grey;
+    margin: 2px;
+
+}
+
+
+div {
+    font-family: "Bangers";
+    padding: 15px;
+}
+
+.container {
+    background-size: 90%;
+    /*background-color: white;*/
+    /*opacity: 0.9;*/
+
+}
+
+img {
+    cursor: pointer;
+    /*max-height: 200px;*/
+}
+
+button:hover {
+    color: gold;
+    /*font-weight: bold;*/
+    -webkit-animation:bounceOut .4s linear;
+}
+
